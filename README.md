@@ -25,7 +25,7 @@ Define and manage templates for common prompt structures, making creating and ma
 Create and manage modular components within the language, allowing for code snippets or logic reuse across multiple prompts. 
 
 **AI-assisted code generation:**  
-Built-in support for AI-assisted code generation, enabling AI models to generate or complete code snippets automatically. 
+Built-in support for AI-assisted code generation, enabling AI models to generate or complete code snippets automatically. The code can run without any kind of runtime or execution environment allowing for Ai Feedback loops where the GPT prompts can operate autonomously or self-replicate as needed.
 
 **Disable explanations:**  
 The ability to disable any explanations or additional text other than the response from the language. 
