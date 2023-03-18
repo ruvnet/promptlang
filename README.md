@@ -19,6 +19,14 @@ AI-assisted code generation: Built-in support for AI-assisted code generation, e
 Disable explanations: The ability to disable any explanations or additional text other than the response from the language.
 Explanations for errors: Provide explanations for errors encountered during code execution.
 
+## Purpose
+
+1. **Simplicity and human-readability**: PromptLang's syntax is straightforward and designed to be easily understood by humans, making it accessible to beginners and experienced programmers alike. Its simple structure allows for easy learning and fast adoption.
+2. **AI and NLP integration**: PromptLang is tailored for use in AI systems and natural language processing tasks. The language can be designed to work well with AI models, making it easier for developers to create and manage AI applications.
+3. **Interoperability**: PromptLang can be designed to integrate seamlessly with various platforms, including APIs, data sources, WebAssembly (WASM) containers, and cloud services. This allows developers to connect their applications with existing services and technologies easily.
+4. **Use in prompts**: The language is designed to work well as part of a prompt, allowing developers to effectively use AI models like ChatGPT to process and interpret PromptLang code snippets. This can lead to an efficient collaboration between human developers and AI models.
+5. **Customizability**: As a custom language, PromptLang can be adapted and expanded to suit specific use cases and requirements. Developers can add new features, libraries, and integrations to make the language more powerful and versatile.
+
 ## How to Initialize PromptLang
 To start using PromptLang, copy and paste the following prompt into your conversation with ChatGPT
 
