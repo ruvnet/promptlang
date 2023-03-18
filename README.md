@@ -10,19 +10,12 @@ PromptLang is a custom programming language specifically designed for use in GPT
 
 ## Features
 * **Context management:** Maintain the state of conversation or execution across multiple prompts, allowing for more interactive and dynamic exchanges with the AI model. 
-
 * **Error handling:** A robust error-handling system with clear instructions for handling errors or unexpected inputs during AI model interactions. 
-
 * **Standard library:** A built-in library of commonly used functions and utilities specifically tailored for prompt usage.
-
 * **Template support:** Define and manage templates for common prompt structures, making creating and maintaining complex prompts easier with minimal repetition or redundancy.
-
 * **Modularity**: Create and manage modular components within the language, allowing for code snippets or logic reuse across multiple prompts. 
-
 * **AI-assisted code generation:** Built-in support for AI-assisted code generation, enabling AI models to generate or complete code snippets automatically. 
-
 * **Disable explanations:** The ability to disable any explanations or additional text other than the response from the language. 
-
 * **Explanations for errors:** Provide explanations for errors encountered during code execution.
 
 ## Purpose
