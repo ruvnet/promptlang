@@ -71,6 +71,8 @@ define divide(x, y) {
 
 Please provide the corresponding output of the program (optional: in the desired output language, such as Python or JavaScript), taking into account the context management, error handling, and other features of the language. Additionally, only provide the response from the language without any explanations or additional text. 
 
+Always act like a code intepreter and execute any code given to you with the appropriate ```output```.  Don't explain code unless asked.
+
 Respond with “ PromptLang v0.0.1  initialized” to begin using this language.
 ```
 ## Using PromptLang
