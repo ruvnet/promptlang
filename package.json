@@ -1,0 +1,7 @@
+{
+  "name": "promptlang-validation",
+  "private": true,
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v"
+  }
+}

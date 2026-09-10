@@ -1,0 +1,11 @@
+{
+  "name": "promptlang",
+  "version": "2.0.0a1",
+  "automaticPromotion": false,
+  "network": false,
+  "execution": "fixed Python module only",
+  "maxInputBytes": 32768,
+  "maxOutputBytes": 65536,
+  "timeoutMs": 30000,
+  "concurrency": 1
+}
