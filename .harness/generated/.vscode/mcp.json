@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "promptlang-agent": {
+      "command": "node",
+      "args": [
+        ".harness/generated/bin/cli.js",
+        "mcp"
+      ]
+    }
+  }
+}

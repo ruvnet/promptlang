@@ -1,0 +1,8 @@
+
+.venv/
+__pycache__/
+node_modules/
+build/
+dist/
+*.egg-info/
+.harness/**/target/

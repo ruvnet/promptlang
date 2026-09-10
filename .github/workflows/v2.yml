@@ -1,0 +1,31 @@
+name: v2 validation
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: |
+          python -m pip install build pip-audit
+          python -m pip install --no-deps .
+      - run: python -m unittest discover -s tests -v
+      - run: python -m promptlang benchmark
+      - run: npm ci --prefix .harness/runtime
+      - run: npm test --prefix .harness/runtime
+      - run: npm audit --prefix .harness/runtime
+      - run: python -m build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: promptlang-wheel-${{ matrix.python }}
+          path: dist/*
